@@ -103,3 +103,11 @@ button.roll-dice {
 button.roll-dice:hover {
   background: #110176;
 }
+
+@media (max-width: 414px) {
+  .die-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+}
