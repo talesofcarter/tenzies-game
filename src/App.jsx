@@ -4,7 +4,7 @@ import { nanoid } from "nanoid";
 import Confetti from "react-confetti";
 
 function App() {
-  const [dice, setDice] = useState(generateAllNewDice());
+  const [dice, setDice] = useState(() => generateAllNewDice());
   const [rolls, setRolls] = useState(0);
   const [timer, setTimer] = useState({ hours: 0, minutes: 0, seconds: 0 });
   const [isRunning, setIsRunning] = useState(false);
