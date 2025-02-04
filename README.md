@@ -35,7 +35,8 @@ Tenzies allows users to click a dice to rotate it while keeping its current valu
 
 ## Screenshots & Video
 
-<img src="assets/screenshots/tenzies-screenshot-1.png" />
+<img src="src/assets/screenshots/tenzies-screenshot-1.png" />
+<img src="src/assets/screenshots/tenzies-screenshot-2.png" />
 
 [Watch Gameplay Video](path/to/video.mp4)
 
