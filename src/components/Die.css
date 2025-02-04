@@ -1,0 +1,18 @@
+@keyframes rotate360 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.die {
+  background-size: cover;
+  transition: all 0.3s ease;
+}
+
+.held {
+  transform: scale(1.2);
+  animation: rotate360 3s linear infinite;
+}

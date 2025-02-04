@@ -38,8 +38,8 @@ body {
 div#root {
   height: 100%;
   width: 100%;
-  max-height: 400px;
-  max-width: 400px;
+  max-height: 500px;
+  max-width: 500px;
 }
 
 main {
@@ -88,7 +88,10 @@ button {
 }
 
 button.roll-dice {
-  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
   white-space: nowrap;
   padding: 6px 21px;
   width: auto;
@@ -102,6 +105,27 @@ button.roll-dice {
 
 button.roll-dice:hover {
   background: #110176;
+}
+
+.dice-face {
+  width: 40px;
+  height: auto;
+}
+
+.rolls-time {
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
+}
+
+.github-profile {
+  text-decoration: none;
+  color: black;
+  transition: all 0.2s ease-out;
+}
+
+.github-profile:hover {
+  color: #5035ff;
 }
 
 @media (max-width: 414px) {
