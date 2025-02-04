@@ -131,7 +131,7 @@ button.roll-dice:hover {
 @media (max-width: 414px) {
   .die-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
   }
 
