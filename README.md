@@ -37,10 +37,9 @@ Tenzies allows users to click a dice to rotate it while keeping its current valu
 
 <img src="src/assets/screenshots/tenzies-screenshot-1.png" />
 <img src="src/assets/screenshots/tenzies-screenshot-2.png" />
+<video controls><source src="src/assets/screenshots/tenzies-video.mp4" type="video/mp4"></video>
 
 [Watch Gameplay Video](path/to/video.mp4)
-
-> Replace `path/to/screenshot.png` and `path/to/video.mp4` with the actual paths in your repository.
 
 ## Credits
 
