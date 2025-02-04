@@ -145,4 +145,11 @@ button.roll-dice:hover {
     border: none;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 2px;
   }
+
+  div#root {
+    height: 100%;
+    width: 100%;
+    max-height: 600px;
+    max-width: 500px;
+  }
 }
