@@ -33,13 +33,10 @@ Tenzies allows users to click a dice to rotate it while keeping its current valu
 2. Tracker to monitor the number of rolls
 3. Timer
 
-## Screenshots & Video
+## Screenshots
 
 <img src="src/assets/screenshots/tenzies-screenshot-1.png" />
 <img src="src/assets/screenshots/tenzies-screenshot-2.png" />
-<video controls><source src="src/assets/screenshots/tenzies-video.mp4" type="video/mp4"></video>
-
-[Watch Gameplay Video](path/to/video.mp4)
 
 ## Credits
 
