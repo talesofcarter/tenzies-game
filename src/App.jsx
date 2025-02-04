@@ -101,7 +101,7 @@ function App() {
       {gameWon && <Confetti />}
       <h1 className="title">Tenzies</h1>
       <p className="instructions">
-        Roll untill all dice are the same. Click each die to freeze it at its
+        Roll untill all dice are the same. Click each die to rotate it at its
         current value between rolls
       </p>
       <div className="die-container">{diceElements}</div>
