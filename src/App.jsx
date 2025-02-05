@@ -8,7 +8,8 @@ function App() {
   const [rolls, setRolls] = useState(0);
   const [timer, setTimer] = useState({ hours: 0, minutes: 0, seconds: 0 });
   const [isRunning, setIsRunning] = useState(false);
-
+  const gameRef = useRef(null)
+  
   useEffect(() => {
     let intervalId;
 
@@ -95,6 +96,12 @@ function App() {
       isHeld={dieObj.isHeld}
     />
   ));
+  // Focus on the new game button when winning
+   useEffect(()=>{
+    if(gameWon && gameRef.current !== null){
+      gameRef.current.focus()
+    }
+  },[gameRef.current,gameWon])
 
   return (
     <main>
@@ -115,7 +122,7 @@ function App() {
         <p>Rolls: {rolls}</p>
       </div>
 
-      <button onClick={rollDice} className="roll-dice">
+      <button ref={gameRef} onClick={rollDice} className="roll-dice">
         {gameWon ? "New Game" : "Roll"}
       </button>
 
